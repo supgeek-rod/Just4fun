@@ -3,7 +3,20 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Just4fun",
-  description: "Armbian and Linux",
+  description: "Armbian Linux and fun",
+
+  head: [
+    ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-N61DKW1SNB' }],
+    ['script', {
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-N61DKW1SNB');
+      `
+    }]
+  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
