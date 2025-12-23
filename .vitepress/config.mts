@@ -21,7 +21,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
       { text: '文档和教程', link: '/docs/armbian-basic/armbian-introduction' },
     ],
 
