@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: 开启 Armbian 之旅
-      link: /markdown-examples
+      link: /docs/armbian-basic/armbian-introduction.html
     - theme: alt
       text: 购买一个 Armbian 盒子
-      link: /api-examples
+      link: /docs/arm-box/taobao-store.html
 
 features:
   - title: Armbian
